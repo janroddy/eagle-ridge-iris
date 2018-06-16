@@ -197,7 +197,16 @@ nav ul  {
     float: right;
     width: 95%;
     }
+#order {
+    padding left: 10px;
+    margin: 10px;
+    width: 95%;
+    float: right;
 
+}
+#order-link {
+    font-size: 1em;
+}
 #photos {
     float: left;
     background-color: #f2f2f2;
