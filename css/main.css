@@ -152,6 +152,11 @@ h2{
     background-image: url("img/header.jpg")
 }
 
+a:hover{
+    color:  #1D2731;
+
+}
+
 nav {
     width: 100%;
     background:  #6699ff;
@@ -183,7 +188,6 @@ nav ul  {
 
 
 
-
 .main-content {
     padding: 10px;
     margin: 10px;
@@ -202,14 +206,22 @@ nav ul  {
     margin: 10px;
     width: 95%;
     float: right;
+    
 
+}
+
+#order ol {
+    line-height: 2.5em;
+}
+#address {
+    list-style-type: none;
 }
 #order-link {
     font-size: 1em;
 }
+
 #photos {
-    float: left;
-    background-color: #f2f2f2;
+    float: left;  
     padding-bottom: 50px;
 
 }
@@ -223,10 +235,14 @@ nav ul  {
         
     }
 
+
+
+
 #contact a img {
     width: 10%;
     float: right;
     letter-spacing: 10px;
+
 
 
 }
