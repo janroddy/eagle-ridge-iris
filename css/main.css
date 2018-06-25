@@ -145,6 +145,7 @@ h1 {
 
 h2{
     font-size: 1em;
+    font-weight: 400;
 }
 
 
@@ -201,6 +202,12 @@ nav ul  {
     float: right;
     width: 95%;
     }
+#about p {
+    margin: 10px;
+    padding: 10px;
+
+}
+
 #order {
     padding left: 10px;
     margin: 10px;
@@ -227,11 +234,11 @@ nav ul  {
 }
 
 .feed-img {
-        width: 45%;
+        width: 85%;
         height: 90%;
-        float: left;
-        margin: 0;
-        padding: 2%;  
+        float: ;
+        margin: 5%;
+        padding: 5%; 
         
     }
 
@@ -261,6 +268,7 @@ nav ul  {
  
 #logo {
     width: 50%;
+    margin-left: 25%;
 }
 
 
@@ -386,25 +394,41 @@ nav ul  {
 
 
     #about {
-        height: 600px;
-        float: left;
+        height: 400px;
+        float: ;
     }
 
     #about p {
         padding: 20px;
         align-content: left;
-        font-size: 1.25em;
+        font-size: 1em;
+
+    }
+   
+    #order {
+        height: 900px; 
+        font-size: 1em;
+
 
     }
 
     #photos img{
         height: 100%;
-        width: 30%;
+        width: 75%;
         float: left;
 
     }
+    .feed-img {
+        width: 45%;
+        height: 90%;
+        float: left;
+        margin: 0;
+        padding: 2%;  
+        
+    }
     #contact h2 {
-        text-align: center;
+        text-align: left;
+        padding-left: 35%;
 
  
     }
@@ -412,14 +436,15 @@ nav ul  {
 
     #contact ul li{
         list-style: none;
-        padding: 0px;
-        float: left;
+        padding: 1%;
+        float: ;
+        line-height: 2.5em;
     
 
     }
 
   #logo {
-    align-content: center;
+    align-content: ;
   }
 
   .half-width {
@@ -452,6 +477,7 @@ nav ul  {
         display: none;
 
     }
+    /* ABOUT ============================= */
     #about {
         height: 100%;
     }
@@ -462,6 +488,7 @@ nav ul  {
         padding: 50px;
     }
         
+    /* Photos ==========================*/
 
     #photos img { 
         height: 100%;
@@ -469,12 +496,25 @@ nav ul  {
         margin: 20px;
         padding: 50px;
     }
-    
+    /*Contact=========================*/
+    #contact ul {
+        width: 100%;
+        
+        margin-left: 15%;
 
-    
+    }
+    #logo {
+        width: ;
+        float: right;
+        
+    }
+
+    /* Footer ==========================*/
        
     #footer {
-        float: right;
+
+        width: 300px;
+        
     }  
 
 @media only screen and (min-width: 35em) {
